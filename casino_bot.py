@@ -143,7 +143,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # Основная функция
 async def main():
     init_db()
-    token = os.getenv("BOT_TOKEN")
+    token = os.getenv("7696218265:AAGOiJEmkg2Wo8qL32ZQwfk2i3A3sbwbNEE")
     if not token:
         raise ValueError("BOT_TOKEN not set in environment variables")
     app = Application.builder().token(token).build()
